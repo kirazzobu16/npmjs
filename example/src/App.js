@@ -1,10 +1,14 @@
 import React from 'react'
 
-import { ExampleComponent } from 'cherryco'
+import {Button } from 'cherryco'
 import 'cherryco/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return ( 
+  <div>
+    <Button type="link"  text="click"></Button>
+  </div> 
+  )
 }
 
 export default App
